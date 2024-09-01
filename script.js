@@ -2,15 +2,15 @@
 
 class Person {
 	construction(name, age);
-	this.__name=name;
-	this.__age=age;
+	this._name=name;
+	this._age=age;
 	
 }
 	get name(){
-      return this.__name;
+      return this._name;
 	}
     set age(newAge){
-		this.__age=newAge;
+		this._age=newAge;
 	}
 
 class Student extends Person {
