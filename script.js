@@ -10,7 +10,7 @@ class Person {
       return this.__name;
 	}
     set age(newAge){
-		return.__age=newAge;
+		this.__age=newAge;
 	}
 
 class Student extends Person {
