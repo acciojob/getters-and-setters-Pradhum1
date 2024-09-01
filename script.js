@@ -2,8 +2,8 @@
 
 class Person {
 	construction(name, age);
-	this.__name__=name;
-	this.__age__=age;
+	this.__name=name;
+	this.__age=age;
 	
 }
 	get name(){
